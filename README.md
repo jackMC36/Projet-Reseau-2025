@@ -55,11 +55,14 @@ Les valeurs de **p** et de **q** sont en hexadecimal, il faut donc utiliser un c
 
 # Annexes
 Lien du dépôt git de ghidra: https://github.com/NationalSecurityAgency/ghidra
+commande pour compiler le fichier C: gcc executable_vierge.c -o executable_vierge -lm
+
   
 ## Groupe
 Jacques KOZIK
 Cesar ARCHILLA
 Mehdi ZNATA
+
 
 
 
