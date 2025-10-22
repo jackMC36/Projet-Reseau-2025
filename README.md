@@ -53,7 +53,9 @@ Sur Ghidra, cherchez les valeurs des variables **p** et **q** en comparant le co
 Les valeurs de **p** et de **q** sont en hexadecimal, il faut donc utiliser un convertisseur.
 (Soit la commande `echo "ibase=16; code_hexadecimale" | bc`, soit un convertisseur en ligne)
 
-
+# Annexes
+Lien du dépôt git de ghidra: https://github.com/NationalSecurityAgency/ghidra
   
+
 
 
