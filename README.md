@@ -36,5 +36,24 @@ Une fois le projet créé :
 
 Félicitations, vous avez maintenant une analyse détaillée de l'exécutable !
 
+## Enoncé
+Bob a reçu un exécutable de la part d’Alice afin de chiffrer ses messages avec l’algorithme RSA. Pour retrouver la clé publique et la clé privée d’Alice, il va utiliser un logiciel de reverse-engineering pour extraire les valeurs de **p** et **q** utilisées pour les générer.
+
+## Objectif
+ - Savoir exploiter un executable a l'aide de Ghidra: votre objectif est d’utiliser **Ghidra** pour analyser l’exécutable d’Alice, retrouver les valeurs de **p** et **q**.
+## Etape 1
+
+Sur Ghidra, cherchez les valeurs des variables **p** et **q** en comparant le code assembleur avec le code C dans le fichier `executable_vierge.c`.
+
+## Etape 2
+
+ Insérez **p** et **q** dans le fichier `executable_vierge.c`, compilez et exécutez le. Quelles sont les valeurs de la clé publique et la clé privée?
+
+### Hint
+Les valeurs de **p** et de **q** sont en hexadecimal, il faut donc utiliser un convertisseur.
+(Soit la commande `echo "ibase=16; code_hexadecimale" | bc`, soit un convertisseur en ligne)
+
+
   
+
 
