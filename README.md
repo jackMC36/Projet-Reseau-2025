@@ -15,5 +15,26 @@ afin d'installer un pre-build officiel et  multi-platforme de Ghidra, il faut:
 ### Attention
 Le TP a été testé sur les machines virtuelles disponibles sur my.isima.fr. Privilégiez ce mode d'exécution afin d'assurer un déroulement fluide du TP.
 
+## Utilisation
 
+Une fois la fenêtre du projet Ghidra lancée, créez un nouveau projet :
+
+1. **File**
+2. **New Project**
+3. **Next >>** (choisissez **Non-shared project**)
+4. Choisissez le nom de votre projet
+5. Cliquez sur **Finish**
+
+Une fois le projet créé :
+
+1. **File**
+2. **Import File...**
+3. Choisissez le fichier exécutable à analyser
+4. Sélectionnez les paramètres par défaut proposés par Ghidra
+5. Cliquez sur **Executable**
+6. Lancez l’analyse avec les options par défaut proposées par Ghidra
+
+Félicitations, vous avez maintenant une analyse détaillée de l'exécutable !
+
+  
 
